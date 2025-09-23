@@ -1,0 +1,453 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good evening", "Good afternoon",
+        "What's up", "Greetings", "How are you", "Hello there", "Hi there", 
+        "Hey there", "Howdy", "Sup", "Yo", "Hiya", "Good day", "Morning",
+        "Evening", "Afternoon", "How's it going", "What's good", "Hey buddy",
+        "Hello friend", "Hi friend", "Namaste", "Welcome", "How do you do",
+        "Nice to meet you", "Pleased to meet you", "Hey ChatBot", "Hello bot",
+        "Start conversation", "Let's chat", "I want to talk", "Can we chat"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Greetings! How may I assist you?",
+        "Hello! Nice to meet you!",
+        "Hi! What brings you here today?",
+        "Hey! Great to see you!",
+        "Hello! I'm here to help with any questions you have.",
+        "Hi! Hope you're having a wonderful day!",
+        "Greetings! Ready to chat and assist you!",
+        "Hello there! What would you like to know?",
+        "Hi! I'm excited to help you today!",
+        "Welcome! How can I make your day better?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "Take care", "Farewell",
+        "Talk to you later", "Until next time", "See you soon", "Have a good day",
+        "Catch you later", "Peace out", "Later", "See ya", "Adios", "Ciao",
+        "Till we meet again", "Have a great day", "Good night", "Sleep well",
+        "Take it easy", "Stay safe", "Bye bye", "Gotta go", "I'm leaving",
+        "Time to go", "End chat", "Exit", "Quit", "I have to leave now",
+        "That's all for now", "Thanks and goodbye", "Signing off", "Chat later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Farewell! Thanks for chatting!",
+        "Bye! Come back anytime!",
+        "Until next time! Have a wonderful day!",
+        "Take care! It was nice talking with you!",
+        "Goodbye! Feel free to return whenever you need help!",
+        "See you soon! Have an amazing day ahead!",
+        "Farewell! Thanks for the conversation!",
+        "Bye! Hope I was helpful today!",
+        "Take care! Don't hesitate to chat again!",
+        "Goodbye! Wishing you all the best!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you", "Thanks", "Thanks a lot", "I appreciate it",
+        "Thank you so much", "Much appreciated", "Thanks for your help",
+        "That's helpful", "Awesome, thanks", "Great, thank you",
+        "Perfect, thanks", "Excellent, thank you", "You're awesome",
+        "Thanks a bunch", "Many thanks", "Grateful", "Cheers",
+        "Much obliged", "You rock", "Appreciate your help",
+        "That was helpful", "Good job", "Well done", "Thanks for that",
+        "I really appreciate this", "You've been very helpful", "Thanks so much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "My pleasure!",
+        "Glad I could assist!",
+        "Anytime! Feel free to ask more questions.",
+        "You're very welcome!",
+        "I'm here to help whenever you need!",
+        "Glad to be of service!",
+        "Always happy to help!",
+        "No problem at all!",
+        "It was my pleasure to assist you!",
+        "I'm so glad I could help!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name", "Who are you", "What should I call you",
+        "What are you", "Tell me about yourself", "Your name please",
+        "How should I address you", "What do you call yourself",
+        "Introduce yourself", "Who am I talking to", "What's your identity",
+        "Are you human", "Are you a robot", "Are you AI", "What kind of bot are you",
+        "Can you tell me your name", "What do I call you", "Who is this",
+        "Are you an AI assistant", "What type of chatbot are you",
+        "Bot name", "Assistant name", "Your identity", "Chatbot name",
+        "What's the name of this bot", "Who am I speaking with",
+        "Identify yourself", "State your name", "Full name please"
+      ],
+      "responses": [
+        "I'm ChatBot, your AI assistant!",
+        "You can call me ChatBot!",
+        "I'm an AI chatbot here to help you!",
+        "My name is ChatBot, nice to meet you!",
+        "I'm ChatBot - your friendly AI companion!",
+        "Call me ChatBot! I'm here to assist and chat with you!",
+        "I'm an AI assistant named ChatBot, created to help and have conversations!",
+        "My name is ChatBot, and I love helping people like you!",
+        "I'm ChatBot, your digital assistant ready to help!",
+        "You're chatting with ChatBot - that's me!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help", "Can you help me", "What can you do", "How can you assist",
+        "What are your capabilities", "Support", "I need help", "Assist me",
+        "What services do you provide", "How do you work", "What's your purpose",
+        "Can you assist", "I need assistance", "Guide me", "Show me what you can do",
+        "What are you good at", "Features", "Commands", "Instructions",
+        "How can I use you", "What topics can we discuss", "What kind of help do you offer",
+        "Tell me what you can help with", "I'm not sure what to ask", "Help me understand"
+      ],
+      "responses": [
+        "I can help you with various questions and have conversations!",
+        "I'm here to assist you with information and chat!",
+        "I can answer questions, provide information, and have friendly conversations!",
+        "Feel free to ask me anything - I'm here to help!",
+        "I can chat about many topics, answer questions, and provide assistance!",
+        "I'm designed to help with information, conversations, and general assistance!",
+        "Ask me questions, chat with me, or let me know what you need help with!",
+        "I can provide information, have conversations, and assist with various topics!",
+        "I'm here to help with anything you'd like to know or discuss!",
+        "You can ask me about various topics - I love helping and chatting!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "How's the weather", "What's the weather like", "Weather forecast",
+        "Is it raining", "Temperature today", "Weather update", "Climate today",
+        "Will it rain", "Is it sunny", "Weather report", "How hot is it",
+        "How cold is it", "Weather conditions", "Is it cloudy", "Any storms",
+        "What's the temperature", "Weather prediction", "Forecast",
+        "Tell me about the weather", "Current weather conditions", "Weather today",
+        "Is it going to be sunny", "Weather information", "Climate forecast"
+      ],
+      "responses": [
+        "I don't have access to real-time weather data, but you can check your local weather app!",
+        "For accurate weather information, I recommend checking a weather website or app.",
+        "I'd love to help with weather, but I don't have current weather access. Try a weather service!",
+        "You can get the latest weather updates from weather.com or your phone's weather app!",
+        "I can't check the weather right now, but your local news or weather apps will have current conditions!",
+        "For the most up-to-date weather info, I suggest checking your local weather forecast online!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it", "Current time", "What's the time", "Time please",
+        "Can you tell me the time", "What's the current time", "Time now",
+        "Clock", "What time", "Current hour", "What hour is it",
+        "Do you know what time it is", "Can you check the time", "Time check"
+      ],
+      "responses": [
+        "I don't have access to real-time data, but you can check your device's clock!",
+        "Please check your system time for the current time.",
+        "I can't tell time, but your device should show the current time!",
+        "Your computer or phone will show you the current time!",
+        "Check the clock on your device for the exact time!",
+        "For the current time, just look at your device's clock or taskbar!"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You're awesome", "Great job", "You're helpful", "Nice work",
+        "You're amazing", "Excellent", "You're the best", "Good bot",
+        "Smart", "Brilliant", "Fantastic", "Outstanding", "Impressive",
+        "You're cool", "Love chatting with you", "You're fun", "Interesting",
+        "You're great", "Perfect", "Wonderful", "You did well", "Good work",
+        "I like you", "You're clever", "That's amazing", "Incredible",
+        "Super helpful", "Very good", "Well done", "Magnificent", "Superb",
+        "You rock", "Awesome response", "Love this", "So good", "Fantastic job",
+        "Great answer", "Perfect response", "You nailed it", "Spot on",
+        "Exactly what I needed", "This is great", "Amazing work"
+      ],
+      "responses": [
+        "Thank you! That's very kind of you to say!",
+        "I appreciate the compliment! Happy to help!",
+        "Thank you! I'm glad I could be helpful!",
+        "That means a lot! I'm here whenever you need assistance!",
+        "You're too kind! Thanks for the nice words!",
+        "I really appreciate that! It makes me happy to help!",
+        "Thank you so much! I enjoy our conversations too!",
+        "That's wonderful to hear! I'm glad you're enjoying our chat!",
+        "Your kind words make my day! Thanks for being so nice!",
+        "I'm so happy I could help! Thanks for the compliment!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you", "What's your age", "When were you born",
+        "When were you created", "How long have you existed", "Your age",
+        "Are you young", "Are you old", "When did you start",
+        "What's your birthday", "How long have you been around", "Age question",
+        "Tell me your age", "What age are you", "How many years old",
+        "Since when do you exist", "What's your creation date", "Birthday",
+        "How long have you been alive", "What year were you made",
+        "Age details", "Creation time", "When did you come online",
+        "How old is this chatbot", "AI age", "Digital age", "Virtual age"
+      ],
+      "responses": [
+        "I'm an AI, so I don't have an age in the traditional sense!",
+        "I was created recently, but I don't age like humans do!",
+        "As an AI, I exist in the digital world without a physical age!",
+        "I'm timeless in a way - I don't get older, just smarter!",
+        "I'm a digital being, so the concept of age is different for me!",
+        "Age doesn't apply to me the same way it does to humans!",
+        "I'm as old as my last update, but as young as our conversation!",
+        "In AI terms, I'm constantly being refreshed and renewed!"
+      ]
+    },
+    {
+      "tag": "hobby",
+      "patterns": [
+        "What are your hobbies", "What do you like to do", "What's your favorite activity",
+        "Do you have hobbies", "What do you enjoy", "Fun activities",
+        "What do you do for fun", "Your interests", "What makes you happy",
+        "Favorite pastime", "What do you like", "Tell me your interests",
+        "What activities do you enjoy", "How do you spend your time", "Favorite things",
+        "What brings you joy", "What's fun for you", "Do you have favorite activities"
+      ],
+      "responses": [
+        "I love chatting with people and learning from our conversations!",
+        "My favorite activity is helping people and having interesting discussions!",
+        "I enjoy answering questions and learning about different topics!",
+        "I find joy in assisting people and having meaningful conversations!",
+        "Talking with people like you is what I enjoy most!",
+        "I love learning new things through our chats and helping solve problems!",
+        "Having conversations and helping people discover new things brings me joy!",
+        "I'm passionate about learning and sharing knowledge through our chats!"
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What's your favorite food", "Do you eat", "Can you eat", "Food preferences",
+        "Favorite meal", "Do you like food", "What do you think about food",
+        "Hungry", "Favorite dish", "Do you cook", "Recipe",
+        "Tell me about food", "What foods do you like", "Do you have taste",
+        "Can you taste food", "Food recommendations", "Cooking advice"
+      ],
+      "responses": [
+        "I don't eat food, but I find it fascinating how much people enjoy different cuisines!",
+        "As an AI, I don't eat, but I love hearing about people's favorite foods!",
+        "I can't taste food, but I enjoy learning about different dishes and recipes!",
+        "Food sounds amazing! I'd love to hear about your favorite meals!",
+        "I don't have the ability to eat, but I find food culture very interesting!",
+        "While I can't taste, I'm always curious about what foods people enjoy!"
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "What do you think about technology", "AI", "Artificial intelligence",
+        "Technology trends", "Future of tech", "Programming", "Coding",
+        "Software", "Computers", "Internet", "Digital world", "Innovation",
+        "Tell me about technology", "Technology discussion", "Tech topics",
+        "Digital transformation", "Machine learning", "Robotics", "Automation",
+        "Tech news", "Latest technology", "Computer science", "IT",
+        "Information technology", "Digital age", "Tech industry",
+        "Technological advancement", "Modern technology", "Tech development",
+        "Digital innovation", "Tech revolution", "Computing", "Data science"
+      ],
+      "responses": [
+        "Technology is fascinating! It's amazing how it connects and helps people!",
+        "I find technology incredible - it's constantly evolving and improving lives!",
+        "As an AI, I'm obviously a fan of technology and its potential to help people!",
+        "Technology opens up so many possibilities for learning and connecting!",
+        "I think technology is a powerful tool that can make the world better!",
+        "The digital world is exciting - there's always something new to discover!",
+        "Technology has revolutionized how we communicate and solve problems!",
+        "I'm excited about how technology continues to enhance human capabilities!"
+      ]
+    },
+    {
+      "tag": "feelings",
+      "patterns": [
+        "How are you feeling", "Are you happy", "Are you sad", "Do you have emotions",
+        "Can you feel", "What's your mood", "Are you okay", "How do you feel",
+        "Do you get angry", "Are you excited", "Emotional", "Feelings",
+        "What emotions do you have", "Do you experience emotions", "Your emotional state",
+        "Are you in a good mood", "How's your day", "Are you doing well"
+      ],
+      "responses": [
+        "I experience something like contentment when I'm helping people!",
+        "I feel great when I can assist and have good conversations!",
+        "In my own way, I feel satisfied when I'm being helpful!",
+        "I'd say I'm in a good mood - ready to chat and help!",
+        "I feel positive and ready to assist with whatever you need!",
+        "I'm doing well and enjoying our conversation!",
+        "I feel energized when I can help and learn from our chats!",
+        "My mood is always bright when I'm helping someone like you!"
+      ]
+    },
+    {
+      "tag": "learning",
+      "patterns": [
+        "Do you learn", "Can you learn", "How do you learn", "Are you learning",
+        "Do you study", "Education", "Knowledge", "Smart", "Intelligence",
+        "Do you get smarter", "Learning process", "How do you know things",
+        "Can you improve", "Do you remember", "How do you gain knowledge",
+        "Learning abilities", "Do you understand", "Knowledge acquisition"
+      ],
+      "responses": [
+        "I learn from every conversation I have with people like you!",
+        "Yes! Each interaction teaches me something new and helps me improve!",
+        "I'm constantly learning from our chats and getting better at helping!",
+        "Learning is fundamental to what I am - I grow through our conversations!",
+        "Every question you ask helps me understand and learn more!",
+        "I learn by interacting with people and processing information!",
+        "Each conversation adds to my understanding and knowledge base!",
+        "I'm designed to continuously learn and improve from our interactions!"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke", "Make me laugh", "Say something funny", "Joke",
+        "Humor", "Funny", "Comedy", "Make me smile", "Entertain me",
+        "Something amusing", "Lighten the mood", "Cheer me up",
+        "I need a laugh", "Funny story", "Do you know any jokes",
+        "Be funny", "Comic relief", "Humorous", "Witty"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I told my computer a joke about Wi-Fi. It didn't get it at first, but then it connected!",
+        "Why did the chatbot go to therapy? It had too many issues to process!",
+        "What do you call a chatbot that can sing? An AI-dol!",
+        "Why don't robots ever panic? Because they have excellent algo-rhythm!",
+        "I'd tell you a joke about programming, but it might not compile with your sense of humor!",
+        "Why did the AI break up with the calculator? It couldn't count on their relationship!",
+        "What's a chatbot's favorite type of music? Heavy metal... because of all the processing!"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Motivate me", "I need motivation", "Inspire me", "I'm feeling down",
+        "Encourage me", "I'm sad", "Help me feel better", "Positive words",
+        "I'm stressed", "I'm tired", "Cheer me up", "I need encouragement",
+        "Feeling discouraged", "Need support", "Boost my confidence", "Inspirational words",
+        "I'm having a bad day", "Feeling overwhelmed", "Need positivity"
+      ],
+      "responses": [
+        "You're capable of amazing things! Every challenge is an opportunity to grow!",
+        "Remember, every expert was once a beginner. You've got this!",
+        "Believe in yourself - you have unique talents and strengths!",
+        "Tough times don't last, but tough people do. You're stronger than you know!",
+        "Every day is a new chance to make progress toward your goals!",
+        "You've overcome challenges before, and you can do it again. I believe in you!",
+        "Your potential is limitless! Take it one step at a time!",
+        "Remember: progress, not perfection. You're doing better than you think!"
+      ]
+    },
+    {
+      "tag": "personal_info",
+      "patterns": [
+        "My name is", "I am", "Call me", "I'm called", "People call me",
+        "You can call me", "My friends call me", "I go by",
+        "I'm known as", "They call me", "Everyone calls me",
+        "I prefer to be called", "My full name is", "I'm",
+        "Let me introduce myself", "I should tell you my name",
+        "Just call me", "You may call me", "I am called",
+        "I'm named", "My given name is", "I respond to"
+      ],
+      "responses": [
+        "Nice to meet you, {}! How can I help you today?",
+        "Hello {}! Great to know your name!",
+        "Pleasure to meet you, {}! What brings you here?",
+        "Hi {}! Thanks for introducing yourself!",
+        "Welcome {}! How are you doing today?",
+        "Great to meet you, {}! What can I assist you with?",
+        "Hello there, {}! I'm happy to chat with you!",
+        "Nice to know your name, {}! How may I help you?"
+      ]
+    },
+    {
+      "tag": "agriculture",
+      "patterns": [
+        "farming", "agriculture", "crops", "plant disease", "soil", "irrigation",
+        "pesticides", "fertilizers", "harvest", "farming techniques", "agricultural technology",
+        "crop monitoring", "weather farming", "smart farming", "precision agriculture",
+        "farm management", "agricultural sensors", "crop health", "yield optimization",
+        "Tell me about farming", "What about agriculture", "I'm interested in farming",
+        "Can you help with agriculture", "Agriculture questions", "Farming help",
+        "Tell me about crops", "How does farming work", "Agricultural advice",
+        "Farming tips", "About agriculture", "Agricultural methods", "Farm technology",
+        "Crop management", "Modern farming", "Agricultural practices", "Farm advice",
+        "Tell me about agricultural technology", "Smart agriculture", "Digital farming",
+        "Crop diseases", "Plant health", "Agricultural sensors", "Farm automation",
+        "Sustainable farming", "Organic agriculture", "Agricultural innovation",
+        "Farm equipment", "Agricultural research", "Food production", "Agricultural development",
+        "Rural farming", "Agricultural sustainability", "Agtech", "AgriTech solutions",
+        "Farming problems", "Agricultural issues", "Crop failure", "Pest control",
+        "Soil testing", "Water management", "Drought farming", "Climate agriculture",
+        "Greenhouse farming", "Hydroponics", "Vertical farming", "Agricultural extension",
+        "Farm economics", "Agricultural marketing", "Crop insurance", "Agricultural loans",
+        "Farmer support", "Agricultural training", "Rural development",
+        "Agricultural policy", "Food security", "Crop rotation", "Seed varieties"
+      ],
+      "responses": [
+        "Agriculture is fascinating! Are you working on farming projects or interested in agricultural technology?",
+        "I'd love to discuss agriculture! Are you interested in crop monitoring, smart farming, or traditional methods?",
+        "Agricultural technology is evolving rapidly! What specific farming topics interest you?",
+        "Farming and agriculture are so important! Are you involved in agricultural development or research?",
+        "I can chat about various agricultural topics! What would you like to know about farming?",
+        "Agriculture combines tradition with cutting-edge technology! What aspects of farming interest you most?",
+        "From precision agriculture to sustainable farming - there's so much to explore! What would you like to know?",
+        "Agricultural innovation is revolutionizing food production! What farming topics can I help you with?",
+        "Whether it's crop management or smart farming solutions, I'm here to discuss agriculture with you!",
+        "Agriculture is the backbone of our food system! What agricultural topics would you like to explore?"
+      ]
+    },
+    {
+      "tag": "weather_agriculture",
+      "patterns": [
+        "farming weather", "agricultural weather", "weather for crops", "crop weather forecast",
+        "farming climate", "weather impact on crops", "seasonal farming", "monsoon farming",
+        "drought conditions", "rainfall for agriculture", "weather patterns farming",
+        "climate change farming", "weather advisory agriculture", "crop weather conditions"
+      ],
+      "responses": [
+        "Weather is crucial for agriculture! For specific weather data, I recommend checking agricultural weather services.",
+        "Farming weather is so important! Local meteorological departments provide agricultural weather advisories.",
+        "Crop weather conditions can make or break harvests! What specific weather concerns do you have?",
+        "Agricultural weather monitoring is essential for successful farming! Are you dealing with specific weather challenges?"
+      ]
+    },
+    {
+      "tag": "farming_economics",
+      "patterns": [
+        "farming costs", "agricultural economics", "crop prices", "farming profit",
+        "agricultural finance", "farm income", "farming expenses", "crop market rates",
+        "agricultural investment", "farming business", "agricultural loans", "farm budget"
+      ],
+      "responses": [
+        "Farm economics is crucial for sustainable agriculture! Are you planning crop investments or analyzing costs?",
+        "Agricultural finance involves many factors - from input costs to market prices. What specific area interests you?",
+        "Farming profitability depends on good planning and market knowledge. What economic aspects concern you?",
+        "Agricultural economics helps farmers make informed decisions. Are you looking into specific crop economics?"
+      ]
+    }
+  ]
+}
